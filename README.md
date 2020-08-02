@@ -8,17 +8,17 @@ Name: Darren Dooley
    
  e.g.
    
-   ![alt_text](./images/horizontal_win.png)
+   ![alt_text](./images/horizontal_win.PNG)
    
-   ![alt_text](./images/vertical_win.png)
+   ![alt_text](./images/vertical_win.PNG)
    
-   ![alt_text](./images/diaganol_win.png) 
+   ![alt_text](./images/diaganol_win.PNG) 
    
    - If the grid fills up without a winner the game ends as a draw 
    
    e.g.
    
-   ![alt_text](./images/draw.png)
+   ![alt_text](./images/draw.PNG)
    
    - Maximum of 2 players can join a game.
    - Player 1 uses x-shaped discs.
