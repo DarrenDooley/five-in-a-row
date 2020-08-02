@@ -1,6 +1,6 @@
 # Five In A Row
 
-Candidate: Darren Dooley
+Name: Darren Dooley
 
 ### Rules of the game:
    - Players take turns dropping x/o-shaped discs into a 6x9 grid.
@@ -8,17 +8,17 @@ Candidate: Darren Dooley
    
  e.g.
    
-   ![alt_text](images/horizontal_win.png)
+   ![alt_text](./images/horizontal_win.png)
    
-   ![alt_text](images/vertical_win.png)
+   ![alt_text](./images/vertical_win.png)
    
-   ![alt_text](images/diaganol_win.png) 
+   ![alt_text](./images/diaganol_win.png) 
    
    - If the grid fills up without a winner the game ends as a draw 
    
    e.g.
    
-   ![alt_text](images/draw.png)
+   ![alt_text](./images/draw.png)
    
    - Maximum of 2 players can join a game.
    - Player 1 uses x-shaped discs.
@@ -30,13 +30,18 @@ Candidate: Darren Dooley
    - If both players leave then the game restarts and new players may join.
  
  ### Simplifications:
-   - If player 1 makes a move then player 2 is not prompted for input. Instead, player 2 must request the state in order to see the move made by player 1.
+   - A client was not built. Instead, the Swagger UI is used to emulate a client.
+   - If player 1 makes a move then player 2 is not prompted for input, player 2 must request the state in order to see the move made by player 1.
   
 ### Assumptions:
    - The application doesn't handle timeouts, therefore, it's assumed that the players will leave after the game ends.
    - It's assumed players will regularly request the state when waiting for an opponent to move.
 
+
 # Application setup
+
+### Requirements
+   - Java 8 with Maven.
 
 ### Build package
 
