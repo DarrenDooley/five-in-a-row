@@ -44,7 +44,7 @@
 ### How to Run (command line)
 - ```cd``` into the project's directory
 - ```mvn clean package```
-- ```java -jar target/dropwizard-swagger-sample-app-1.0-SNAPSHOT.jar server src/main/resources/sample-config.yaml```
+- ```java -jar target/FiveInARow-0.0.1-SNAPSHOT.jar server src/main/resources/conf.yaml```
 - Open your browser and go to http://localhost:8888/swagger#/v1/
 
 ### Open Swagger Client
