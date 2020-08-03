@@ -72,7 +72,7 @@ http://35.242.187.145:8888/swagger#/v1
 
 - Choose the request you want to make
    ![alt_text](./images/open_request_window.PNG)
-675.6kj gg
+
 - Click "Try it out"
 
    ![alt_text](./images/try_it_out_button.PNG)
