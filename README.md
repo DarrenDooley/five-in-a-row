@@ -1,5 +1,10 @@
 # Five In A Row
 
+### Play Now
+
+Play Five In A Row now:
+http://35.242.187.145:8888/swagger#/v1
+
 ### Rules of the game:
    - Players take turns dropping x/o-shaped discs into a 6x9 grid.
    - A player wins if they form a line of 5 of their own discs.
@@ -67,7 +72,7 @@
 
 - Choose the request you want to make
    ![alt_text](./images/open_request_window.PNG)
-
+675.6kj gg
 - Click "Try it out"
 
    ![alt_text](./images/try_it_out_button.PNG)
@@ -79,3 +84,14 @@
 - Read the response from the server in the "Response Body"
 
    ![alt_text](./images/response.PNG)
+   
+  
+### Docker
+
+ - To build docker image run:
+   
+   ```docker build --tag fiveinarow .```
+   
+ - To run docker container:
+ 
+   ```docker run -it -d --name=five-in-a-row -p 8888:8888 fiveinarow```
